@@ -1,5 +1,6 @@
 --liquibase formatted sql
 
+-- commnet : Created Table and alters it
 --changeset bob:10
 create table test1 (
 id int primary key,
