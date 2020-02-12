@@ -9,7 +9,7 @@
    </target>
 	<target name="Deploying Package">
 	<echo message="Hello Liquibase"></echo>	
-	<liquibase:updateDatabase classpathref="driver.classpath" changelogfile="/liquibase/12-02-2020/changeLog.xml">
+	<liquibase:updateDatabase classpathref="driver.classpath" changelogfile="liquibase/12-02-2020/changeLog.xml">
 	   <liquibase:database id="my-database" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" url="jdbc:sqlserver://192.168.1.13:32486;databaseName=newdb1;integratedSecurity=false;" user="sa" password="umeshUMESH1.@"/>
     </liquibase:updateDatabase>
 	</target>
