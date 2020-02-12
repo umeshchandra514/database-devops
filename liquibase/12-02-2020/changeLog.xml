@@ -7,4 +7,6 @@
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
    <include file="liquibase/12-02-2020/deploy-1.sql"/>
    <include file="liquibase/12-02-2020/deploy-2.sql"/>
+   <include file="liquibase/12-02-2020/MPMTotalscript-1.sql"/>
+   <include file="liquibase/12-02-2020/MPMTotalscript-2.sql"/>
 </databaseChangeLog>
