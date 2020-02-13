@@ -15,6 +15,17 @@ ADD address varchar(255);
 
 
 
+--changeset procedure:2
+CREATE PROCEDURE SelectAllCustomers @City nvarchar(30)
+AS
+SELECT * FROM Customers WHERE City = @City
+EXEC SelectAllCustomers @City = "London";
+
+--changeset procedure:3
+create table Customers (
+id int primary key,
+City varchar(255)
+);
 
 
 
