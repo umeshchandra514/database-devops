@@ -7,6 +7,6 @@
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
    <include file="deploy-1.sql"/>
    <include file="deploy-2.sql"/>
-   <include file="MPMTotalscript-1.sql"/>
-   <include file="MPMTotalscript-2.sql"/>
+ <!--  <include file="MPMTotalscript-1.sql"/>
+   <include file="MPMTotalscript-2.sql"/>  -->
 </databaseChangeLog>
