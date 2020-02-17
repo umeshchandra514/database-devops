@@ -19,8 +19,6 @@ City varchar(255)
 );
 
 
---changeset procedure:2
-CREATE PROCEDURE SelectAllCustomers @City nvarchar(30) AS SELECT * FROM Customers WHERE City = @City EXEC SelectAllCustomers @City = "London";
 
 
 
