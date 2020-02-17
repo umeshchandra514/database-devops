@@ -26,9 +26,11 @@
 	<liquibase:updateDatabase classpathref="driver.mysql" changelogfile="changeLog.xml" outputFile="incremental-script.sql">
 	   <liquibase:database id="my-database" driver="org.gjt.mm.mysql.Driver" url="jdbc:mysql://192.168.1.13:31519/test" user="root" password="umesh" />
         </liquibase:updateDatabase>
+	<!--	
 	<liquibase:updateDatabase classpathref="driver.mysql" changelogfile="changeLog.xml" >
 	   <liquibase:database id="my-database" driver="org.gjt.mm.mysql.Driver" url="jdbc:mysql://192.168.1.13:31519/test" user="root" password="umesh" />
         </liquibase:updateDatabase>
+	-->
 	</target>
 </project>
 
